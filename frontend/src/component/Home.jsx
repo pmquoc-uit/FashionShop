@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import MetaData from "./layout/MetaData";
 
 const Home = () => {
   return (
-    
+    <>
+      <MetaData title={'IE104'} />
       <div className="row">
         <div className="col-12 col-sm-6 col-md-12">
           <h1 id="products_heading" className="text-secondary">Sản phẩm nổi bật</h1>
@@ -45,7 +47,7 @@ const Home = () => {
           </section>
         </div>
       </div>
-    
+      </>
   )
 }
 
